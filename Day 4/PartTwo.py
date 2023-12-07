@@ -19,4 +19,4 @@ def consumeFile(filename):
         total += cardDict[c]['duplicate-count']
     return total
 
-print(consumeFile("input-example.txt"))
+print(consumeFile("input.txt"))
