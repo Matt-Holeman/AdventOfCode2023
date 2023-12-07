@@ -1,0 +1,13 @@
+Pair = 1
+Triple = 3
+Quad = 5
+Quin = 6
+
+
+High Card = 0
+One Pair = 1
+Two Pair = 2
+Three of a Kind = 3
+Full House = 4
+Four of a Kind = 5
+Five of a Kind = 6
