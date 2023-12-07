@@ -1,7 +1,7 @@
 NUMWORDS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 def main():
-    file = open("./calibration-input.txt")
+    file = open("./input.txt")
     file = file.read()
     total = 0
 

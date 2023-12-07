@@ -1,6 +1,6 @@
 
 def main():
-    with open("./calibration-input.txt") as file:
+    with open("./input.txt") as file:
         total = 0
         for line in file:
             first = True
