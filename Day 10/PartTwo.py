@@ -16,7 +16,6 @@ def main():
             c = pipeMatrix[y][x]
             if pipeMatrix[y][x] == 'S':
                 pipeMatrix[y][x] = sReplace
-                c = sReplace
             if (x, y) not in loopPipeList:
                 pipeMatrix[y][x] = '+'
 
