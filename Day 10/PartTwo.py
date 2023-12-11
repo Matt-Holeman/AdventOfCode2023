@@ -1,10 +1,16 @@
-import sys
+import time
 
 MAX_X = 140
 MAX_Y = 140
 sReplace = '|'
 
 def main():
+    start = time.time()
+    solve()
+    end = time.time()
+    print(f"Took: {round((end-start) * 10**3)}ms")
+
+def solve():
     file = open("input.txt")
     pipeMatrix = consumeFile(file)
     loopPipeList = traversePipes(pipeMatrix)
