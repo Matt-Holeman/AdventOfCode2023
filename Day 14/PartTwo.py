@@ -60,7 +60,7 @@ def scoreBoard(platformList, direction):
     platformListRotated = list(platformList)
     for _ in range(3 - direction):
         platformListRotated = rotateBoard(platformListRotated, 'CW')
-    for row in platformList:
+    for row in platformListRotated:
         for cIdx in range(len(row)):
             c = row[cIdx]
             if c == 'O':
