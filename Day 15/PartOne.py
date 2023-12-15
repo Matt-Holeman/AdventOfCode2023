@@ -1,7 +1,5 @@
 import time
 
-MULT_VALUE = 17
-
 def main():
     start = time.time()
     solve()
@@ -17,12 +15,11 @@ def solve():
     print(total)
 
 def hashString(inString):
-    multiplier = MULT_VALUE
     value = 0
     for c in inString:
         value += ord(c)
-        value *= multiplier
-        value = value % 256
+        value *= 17
+        value %= 256
     return value
 
 

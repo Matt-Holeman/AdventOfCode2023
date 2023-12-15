@@ -45,7 +45,7 @@ def hashString(inString):
     for c in inString:
         value += ord(c)
         value *= 17
-        value = value % 256
+        value %= 256
     return value
 
 def consumeFile(file):
