@@ -44,10 +44,6 @@ def validateFile(bagDict):
         print(f"{gameID} - Red: {highestRed}, Blue: {highestBlue}, Green: {highestGreen} --> {highestRed * highestGreen * highestBlue}")
         sumPower += (highestRed * highestGreen * highestBlue)
     return sumPower
-    
-
-
-
 
 if __name__ == "__main__":
     main()

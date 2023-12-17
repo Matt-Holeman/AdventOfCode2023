@@ -16,8 +16,6 @@ def main():
             count += mult
     print(count)
 
-    
-
 def consumeFile(file, x, y):
     matrix = [[ 0 for i in range(x) ] for j in range(y) ]
     x = 0
